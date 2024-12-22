@@ -54,7 +54,7 @@ export default function P46_1() {
       <ActionButton
         title="홈 화면으로 돌아가기"
         onPress={() => {
-          router.push("/");
+          router.push("/Home");
         }}
       />
     </View>

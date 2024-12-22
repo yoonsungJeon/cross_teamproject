@@ -74,7 +74,7 @@ const P52_1 = () => {
 
       <TouchableOpacity
         style={styles.nextButton}
-        onPress={() => router.push("/")}
+        onPress={() => router.push("/Home")}
       >
         <Text style={styles.nextButtonText}>홈으로 가기</Text>
       </TouchableOpacity>
